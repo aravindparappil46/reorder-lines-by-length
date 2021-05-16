@@ -6,19 +6,24 @@
 
   <description><![CDATA[
       Simple plugin to reorder selected lines of code by length<br>
-      Decrease cognitive load and make your code pretty! <br/>
+      Decrease cognitive load and make your code pretty! <br/> <br/>
       <p> Just select a bunch of lines, right click and choose Reorder Lines By Length to
       rearrange the selected lines by ascending order of length! Also auto-indents them!</p>
-
+      <br/> <br/>
       <strong>Only works on groups of single lines!</strong>
       <p>It will cause undesirable changes if any line of code selected spans more than one line, like below</p>
       <pre>Caret primaryCaret = editor.getCaretModel()
         .getPrimaryCaret();</pre>
+      <br/> <br/>
+
+      <strong> Also, make sure to select lines in whole i.e, starting from the first character till the end! </strong>
+      <br/> <br/>
+      This plugin is open-source. Feel free to contribute at https://github.com/aravindparappil46/reorder-lines-by-length
     ]]></description>
 
   <change-notes><![CDATA[
       <ul>
-       <li> Initial release v1.0: Add "Reorder By Length" action on editor right-click menu</li>
+       <li> Initial release v1.0: Add "Reorder Lines By Length" action on editor right-click menu</li>
       </ul>
     ]]>
   </change-notes>
