@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.aravindparappil.reorderlinesbylength</id>
   <name>Reorder Lines By Length</name>
-  <version>1.0</version>
+  <version>1.1</version>
   <vendor email="aravindparappil@gmail.com" url="https://github.com/aravindparappil46">Aravind Parappil</vendor>
 
   <description><![CDATA[
